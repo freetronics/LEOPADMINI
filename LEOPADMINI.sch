@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4654,13 +4654,13 @@ Source: TOP MAGNETICS CORPORATION .. tfi.pdf</description>
 </classes>
 <parts>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
-<part name="C2" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF 0603"/>
+<part name="C2" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF"/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="U$3" library="SparkFun" deviceset="5V" device=""/>
-<part name="R2" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="10K 0603"/>
+<part name="R2" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="U$1" library="SparkFun" deviceset="5V" device=""/>
-<part name="C3" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="1uF 0603"/>
-<part name="C1" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF 0603"/>
+<part name="C3" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="1uF"/>
+<part name="C1" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="100nF"/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
 <part name="ICSP" library="pinhead" deviceset="PINHD-2X3" device="" value="ICSP"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -4670,10 +4670,10 @@ Source: TOP MAGNETICS CORPORATION .. tfi.pdf</description>
 <part name="Z2" library="freetronics-master-v1.1" deviceset="RESISTOR" device="0603" value="PGB1010603"/>
 <part name="IC1" library="freetronics-jon" deviceset="ATMEGA32U4" device="-QFN"/>
 <part name="GND15" library="SparkFun" deviceset="GND" device=""/>
-<part name="C5" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="15pF 0603"/>
-<part name="C6" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="15pF 0603"/>
+<part name="C5" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="15pF"/>
+<part name="C6" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="15pF"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
-<part name="C4" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="1uF 0603"/>
+<part name="C4" library="freetronics-master-v1.1" deviceset="CAP" device="0603" value="1uF"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
 <part name="XTL1" library="freetronics-jon" deviceset="CRYSTAL-GND" device="3X2" value="16MHz"/>
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>

@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24,18 +24,18 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="15" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -852,71 +852,71 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="freetronics-master-v1.1" package="0603" value="100nF 0603" x="35" y="77" smashed="yes" rot="R90">
+<element name="C2" library="freetronics-master-v1.1" package="0603" value="100nF" x="35" y="77" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.5174" y="76.7206" size="0.6096" layer="25" font="vector"/>
-<attribute name="VALUE" x="36.143" y="75.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="34.543" y="75.384" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="R2" library="freetronics-master-v1.1" package="0603" value="10K 0603" x="37" y="77" smashed="yes" rot="R90">
+<element name="R2" library="freetronics-master-v1.1" package="0603" value="10K" x="37" y="77" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.5936" y="76.7207" size="0.6096" layer="25" font="vector"/>
-<attribute name="VALUE" x="38.1431" y="75.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="36.5431" y="75.984" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C3" library="freetronics-master-v1.1" package="0603" value="1uF 0603" x="48" y="74" smashed="yes" rot="R90">
+<element name="C3" library="freetronics-master-v1.1" package="0603" value="1uF" x="48" y="74" smashed="yes" rot="R90">
 <attribute name="NAME" x="48.5334" y="74.2794" size="0.6096" layer="25" font="vector" rot="R180"/>
-<attribute name="VALUE" x="49.143" y="72.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="47.543" y="73.084" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C1" library="freetronics-master-v1.1" package="0603" value="100nF 0603" x="51" y="68" smashed="yes">
+<element name="C1" library="freetronics-master-v1.1" package="0603" value="100nF" x="51" y="68" smashed="yes">
 <attribute name="NAME" x="50.7206" y="68.4826" size="0.6096" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="49.984" y="66.857" size="0.4064" layer="27" font="vector"/>
+<attribute name="VALUE" x="49.843" y="66.684" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="ICSP" library="pinhead" package="2X03" value="ICSP" x="50.64" y="61.2964" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.8526" y="61.271" size="0.6096" layer="25" ratio="10"/>
-<attribute name="VALUE" x="46.195" y="65.1064" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="51.005" y="58.7936" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="S21" library="freetronics-jon" package="TACTILE_SWITCH_SMD_2PIN_TINY" value="RESET" x="51" y="74" smashed="yes" rot="R270"/>
 <element name="Z1" library="freetronics-master-v1.1" package="0603" value="PGB1010603" x="47" y="77" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.254" y="76.619" size="0.4064" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="47.9652" y="75.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="46.5652" y="75.284" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="Z2" library="freetronics-master-v1.1" package="0603" value="PGB1010603" x="41" y="77" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.254" y="76.619" size="0.4064" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="41.9652" y="75.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="40.5652" y="75.384" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="IC1" library="freetronics-jon" package="QFN-44N" value="ATMEGA32U4-QFN" x="43" y="68" smashed="yes" rot="R180"/>
-<element name="C5" library="freetronics-master-v1.1" package="0603" value="15pF 0603" x="26.5" y="67" smashed="yes" rot="R270">
+<element name="C5" library="freetronics-master-v1.1" package="0603" value="15pF" x="26.5" y="67" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.9666" y="66.6444" size="0.6096" layer="25" font="vector"/>
-<attribute name="VALUE" x="25.5348" y="68.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="25.7652" y="65.784" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C6" library="freetronics-master-v1.1" package="0603" value="15pF 0603" x="32.5" y="67" smashed="yes" rot="R90">
+<element name="C6" library="freetronics-master-v1.1" package="0603" value="15pF" x="32.5" y="67" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.0936" y="66.7206" size="0.6096" layer="25" font="vector"/>
-<attribute name="VALUE" x="33.4652" y="65.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="33.8652" y="65.884" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C4" library="freetronics-master-v1.1" package="0603" value="1uF 0603" x="39" y="77" smashed="yes" rot="R270">
+<element name="C4" library="freetronics-master-v1.1" package="0603" value="1uF" x="39" y="77" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.4666" y="76.7206" size="0.6096" layer="25" font="vector"/>
-<attribute name="VALUE" x="38.0348" y="78.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="38.5652" y="76.184" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="XTL1" library="freetronics-jon" package="CRYSTAL-SMD-3X2" value="16MHz" x="29.5" y="67" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.595" y="66.7508" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="31.04" y="69.04" size="0.4064" layer="27" rot="R180"/>
+<attribute name="VALUE" x="29.84" y="65.56" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="LED2" library="freetronics-jon" package="LED-0603" value="RED" x="12" y="80" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.4412" y="79.111" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="12.9652" y="78.984" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VALUE" x="11.4652" y="78.984" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="LED3" library="freetronics-jon" package="LED-0603" value="GREEN" x="14.5" y="80" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.9412" y="79.111" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="15.4652" y="78.984" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VALUE" x="13.9652" y="78.084" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="R3" library="freetronics-jon" package="0603" value="4K7" x="8.5" y="75" smashed="yes" rot="R270">
 <attribute name="NAME" x="9.008" y="75.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="7.5348" y="76.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="7.9652" y="74.384" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R4" library="freetronics-jon" package="0603" value="1K" x="12" y="75" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.508" y="75.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="11.0348" y="76.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="11.5652" y="74.484" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R5" library="freetronics-jon" package="0603" value="1K" x="14.5" y="75" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.008" y="75.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="13.5348" y="76.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="14.0652" y="74.584" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="S1" library="freetronics-original" package="TACTILE-PTH" value="1" x="9" y="53" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.19" y="50.46" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -968,11 +968,11 @@ design rules under a new name.</description>
 </element>
 <element name="R1" library="freetronics-jon" package="0603" value="22R" x="45" y="77" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.508" y="77.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="44.0348" y="78.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="44.5652" y="75.984" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="R6" library="freetronics-jon" package="0603" value="22R" x="43" y="77" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.508" y="77.889" size="0.4064" layer="25" font="vector" rot="R270"/>
-<attribute name="VALUE" x="42.0348" y="78.016" size="0.4064" layer="27" font="vector" rot="R270"/>
+<attribute name="VALUE" x="42.4652" y="76.084" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="S17" library="freetronics-original" package="TACTILE-PTH" value="17" x="9" y="9" smashed="yes" rot="R90">
 <attribute name="NAME" x="6.19" y="6.46" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -987,7 +987,7 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="freetronics-jon" package="LED-0603" value="BLUE" x="8.5" y="80" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.9412" y="79.111" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="9.4652" y="78.984" size="0.4064" layer="27" rot="R90"/>
+<attribute name="VALUE" x="7.9652" y="78.584" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="S18" library="freetronics-original" package="TACTILE-PTH" value="18" x="21" y="9" smashed="yes" rot="R90">
 <attribute name="NAME" x="18.19" y="6.46" size="1.27" layer="25" ratio="10" rot="R90"/>
@@ -997,19 +997,19 @@ design rules under a new name.</description>
 </element>
 <element name="U$15" library="freetronics-jon" package="USB-C-U52A" value="USB-C" x="30.6" y="75" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.2" y="79.62" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="29.505" y="80.445" size="0.762" layer="27" rot="R180"/>
+<attribute name="VALUE" x="28.605" y="80.845" size="0.762" layer="27" rot="R180"/>
 </element>
 <element name="R18" library="freetronics-original" package="0603" value="5.1K" x="20.5" y="72" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.992" y="71.111" size="0.4064" layer="25" font="vector" rot="R90"/>
-<attribute name="VALUE" x="21.4652" y="70.984" size="0.4064" layer="27" font="vector" rot="R90"/>
+<attribute name="VALUE" x="19.9652" y="70.884" size="0.8128" layer="27" font="vector" rot="R90"/>
 </element>
 <element name="F1" library="rcl" package="L1812" value="500mA PTC 1812" x="18" y="78" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.905" y="79.905" size="1.27" layer="25" rot="R270"/>
-<attribute name="VALUE" x="14.825" y="79.905" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="16.275" y="73.595" size="0.8128" layer="27" rot="R90"/>
 </element>
 <element name="JP2" library="freetronics-jon" package="1X04" value="OLED" x="9" y="70" smashed="yes" rot="R270">
 <attribute name="NAME" x="10.8288" y="71.3462" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="5.825" y="71.27" size="1.27" layer="27" rot="R270"/>
+<attribute name="VALUE" x="7.875" y="62.03" size="0.8128" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
