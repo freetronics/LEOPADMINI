@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -188,7 +188,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMTgxMTA5MTU5MjczMjgx" f3durn="urn:adsk.wipprod:dm.lineage:ws5eUjcNRcCjEoBbb0nq0w" pcbguid="b38a39a3-1ff4-4c82-92ba-e29b69449292" lastpulledtime="2019-06-19T06:28:58Z" lastsyncedchangeguid="3afe8c30-09ea-03f9-b4ab-7ad8eabc5dab"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDliZmNi" projecturn="a.cGVyc29uYWw6dWUyZDliZmNiIzIwMjAwMzExMjczNjg2ODgx" f3durn="urn:adsk.wipprod:dm.lineage:nxpwyrDLTPqHSJM8XAQADQ" pcbguid="eac4fae7-124e-414c-9b10-07673a32b855" lastpulledtime="" lastsyncedchangeguid="b87ed794-bb79-71ec-a1bf-1938b0b02a06"/>
 <plain>
 <wire x1="35.862" y1="76.7" x2="35.481" y2="76.319" width="0.254" layer="22"/>
 <circle x="48.1" y="65.1064" radius="0.254" width="0.4064" layer="21"/>
